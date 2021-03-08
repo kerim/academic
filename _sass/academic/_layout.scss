@@ -724,8 +724,8 @@
 .about-col-1 {
   @include size(vsmall);
   padding-right: $spacing-unit / 2;
-  width: -webkit-calc(35% - (#{$spacing-unit} / 4));
-  width:         calc(35% - (#{$spacing-unit} / 4));
+  width: -webkit-calc(30% - (#{$spacing-unit} / 4));
+  width:         calc(30% - (#{$spacing-unit} / 4));
 
 
   .user-picture {
@@ -736,8 +736,8 @@
 
 .about-col-2 {
   @include size(small);
-  width: -webkit-calc(65% - (#{$spacing-unit} / 4));
-  width:         calc(65% - (#{$spacing-unit} / 4));
+  width: -webkit-calc(70% - (#{$spacing-unit} / 4));
+  width:         calc(70% - (#{$spacing-unit} / 4));
 
   h1 {
     margin-top: 0;
