@@ -1,24 +1,46 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.langs[0] | default: "en" }}">
+---
+layout: default
+---
 
-  {% include head.html %}
+<div class="about-col-wrapper">
+  <div class="about-col about-col-1">
 
-  <body>
-
-    {% include header.html %}
-
-    {% if page.layout == "post" %}
-    <main class="post-content" aria-label="Content">
-    {% else %}
-    <main class="page-content" aria-label="Content">
+    {% if site.github_username %}
+    <img class="user-picture" src="https://github.com/{{ site.github_username }}.png" alt="{{ site.author }}">
     {% endif %}
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
 
-    {% include footer.html %}
+    <ul class="contact-list">
+      {% if site.email %}
+      <li>
+        {% include _icons/email.html username=site.email %}
+      </li>
+      {% endif %}
 
-  </body>
+      {% if site.curriculum.url %}
+      <li>
+        {% include _icons/file.html curriculum=site.curriculum %}
+      </li>
+      {% endif %}
+    </ul>
 
-</html>
+    <ul class="contact-list">
+      {% if site.author_website %}
+      <li>
+        {% include _icons/website.html url=site.author_website %}
+      </li>
+      {% endif %}
+    </ul>
+
+    {% include contactlist.html %}
+
+  </div>
+  <article class="about-col about-col-2" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <h1>{{ page.title }}</h1>
+
+    <div class="post-content" itemprop="articleBody">
+      {{ content }}
+    </div>
+
+  </article>
+</div>
