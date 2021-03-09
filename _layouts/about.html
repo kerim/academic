@@ -9,6 +9,11 @@ layout: default
     <img class="user-picture" src="https://github.com/{{ site.github_username }}.png" alt="{{ site.author }}">
     {% endif %}
 
+ {% if site.description %}
+        <li>{% include _i18n/i18n.html value=site.description %}</li>
+        {% endif %}
+
+
     <ul class="contact-list">
       {% if site.email %}
       <li>
