@@ -377,11 +377,12 @@
       margin-bottom: $spacing-unit / 2;
     }
     
-    ul {
+  }
+
+ul, ul.contact-list {
   margin-block-start: 0em;
   margin-block-end: 0em;
 }
-  }
 
   .bottom {
     color: $grey-color-light;
