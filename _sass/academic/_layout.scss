@@ -379,11 +379,6 @@
     
   }
 
-ul, ul.contact-list {
-  margin-block-start: unset !important;
-  margin-block-end: unset !important;
-}
-
   .bottom {
     color: $grey-color-light;
     width: 100%;
@@ -716,10 +711,19 @@ ul, ul.contact-list {
   margin-left: 0;
   margin-top: $spacing-unit / 2;
   text-transform: lowercase;
+  margin-block-start: unset !important;
+  margin-block-end: unset !important;
+}
 
   a:hover {
     text-decoration: none;
   }
+  
+  ul {
+  margin-block-start: unset !important;
+  margin-block-end: unset !important;
+}
+  
 }
 
 .user-picture {
