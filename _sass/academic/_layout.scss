@@ -706,14 +706,12 @@
   display: none;
 }
 
-.contact-list, ul.contact-list {
+.contact-list {
   list-style: none;
   margin-left: 0;
-  margin-top: $spacing-unit / 2;
   text-transform: lowercase;
-  margin-block-start: unset !important;
-  margin-block-end: unset !important;
-
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
 
   a:hover {
     text-decoration: none;
