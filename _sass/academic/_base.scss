@@ -37,7 +37,7 @@ body {
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
- */
+*/
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
@@ -47,6 +47,7 @@ ul, ol, dl, figure,
 h1, h2, h3, h4, h5, h6,
 %vertical-rhythm {
   margin-top: $spacing-unit;
+  margin-bottom: $spacing-unit / 7;
 }
 
 h1,
@@ -262,8 +263,8 @@ hr {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width: 65%;
+  max-width: 65%;
   margin-right: auto;
   margin-left: auto;
   padding-right: $spacing-unit;
