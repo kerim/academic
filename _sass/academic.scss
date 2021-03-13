@@ -130,7 +130,7 @@ padding: 0 !important;
 }
 
 @include media-query($on-palm) {
-.site-nav .nav-list li:nth-child(n+0) { 
-display: block;
+.site-nav .nav-list li { 
+display: block !important;
 }
 }
