@@ -281,8 +281,11 @@
 
       li:hover {
         border: none;
+        display: block;
+    	float: left;
+    	clear: left;
       }
-    }
+      
 
     .page-link {
       display: block;
