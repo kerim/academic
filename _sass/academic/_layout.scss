@@ -734,12 +734,14 @@
   .user-picture {
     margin-bottom: $spacing-unit / 2;
     
-    p {
-    margin-right: 10px;
-    }
+
   }
 
 }
+
+    p.about-col-1 {
+    margin-right: 10px !important;
+    }
 
 .about-col-2 {
   @include size(small);
