@@ -739,10 +739,6 @@
 
 }
 
-    p.about-col-1 {
-    margin-right: 10px !important;
-    }
-
 .about-col-2 {
   @include size(small);
   width: -webkit-calc(70% - (#{$spacing-unit} / 4));
@@ -804,3 +800,8 @@
 .invisible {
   display: none;
 }
+
+
+p.about-col {
+    margin-right: 10px !important;
+    }
