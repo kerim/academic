@@ -132,7 +132,6 @@ padding: 0 !important;
 @include media-query($on-palm) {
 .site-nav .nav-list li { 
 display: block !important;
-line-height: 1 !important;
-margin-bottom: 12px !important;
+line-height: 2em !important;
 }
 }
