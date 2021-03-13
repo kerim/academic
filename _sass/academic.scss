@@ -122,3 +122,9 @@ $on-laptop:        800px !default;
   "academic/layout",
   "academic/syntax-highlighting"
 ;
+
+@include media-query($on-palm) {
+.page-content { 
+padding: 0 !important;
+}
+// }
