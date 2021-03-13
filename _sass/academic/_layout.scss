@@ -223,7 +223,6 @@
       @include media-query($on-palm) {
         height: auto;
         line-height: normal;
-        display: block;
 
         &:nth-child(n+0) {
           margin: 0;
