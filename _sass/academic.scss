@@ -135,3 +135,9 @@ display: block !important;
 line-height: 2em !important;
 }
 }
+
+@include media-query($on-palm) {
+h2 { 
+margin-bottom: 20px !important;
+}
+}
