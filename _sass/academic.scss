@@ -142,12 +142,8 @@ margin-bottom: 20px !important;
 }
 }
 
-.bottom-nav ul {
-    margin-left: 0;
-}
-
 @include media-query($on-laptop) {
 .bottom-nav ul { 
-display: none;
+display: none !important;
 }
 }
