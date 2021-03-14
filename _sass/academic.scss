@@ -141,3 +141,13 @@ h2 {
 margin-bottom: 20px !important;
 }
 }
+
+.bottom-nav li { 
+display: block !important;
+line-height: 2em !important;
+}
+
+@include media-query($on-laptop) {
+.bottom-nav{ 
+display: none;
+}
