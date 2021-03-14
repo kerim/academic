@@ -142,16 +142,14 @@ margin-bottom: 20px !important;
 }
 }
 
-.bottom-nav li { 
+ul.bottom-nav { 
 display: block !important;
 line-height: 2em !important;
+margin-lef: 0 !important;
 }
 
 @include media-query($on-laptop) {
-.bottom-nav { 
+ul.bottom-nav { 
 display: none;
-}
-.bottom-nav ul { 
-margin-lef: 0 !important;
 }
 }
