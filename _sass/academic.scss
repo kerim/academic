@@ -143,7 +143,7 @@ margin-bottom: 20px !important;
 }
 
 @include media-query($on-laptop) {
-.bottom-nav ul { 
+.contact-list .footer-col .footer-col-2 .bottom-nav ul { 
 display: none !important;
 }
 }
