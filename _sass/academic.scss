@@ -148,7 +148,10 @@ line-height: 2em !important;
 }
 
 @include media-query($on-laptop) {
-.bottom-nav li { 
+.bottom-nav { 
 display: none;
+}
+.bottom-nav ul { 
+margin-lef: 0 !important;
 }
 }
